@@ -392,6 +392,8 @@
 
 #define DMAMAP_SPI3_RX DMAMAP_DMA12_SPI3RX_0 /* DMA1 */
 #define DMAMAP_SPI3_TX DMAMAP_DMA12_SPI3TX_0 /* DMA1 */
+#define DMAMAP_USART3_RX DMAMAP_DMA12_USART3RX_0 /* DMA1 */
+#define DMAMAP_USART3_TX DMAMAP_DMA12_USART3TX_0 /* DMA1 */
 
 /****************************************************************************
  * Public Data
