@@ -584,5 +584,9 @@ int stm32_bringup(void)
   usbdev_adb_initialize();
 #endif
 
+#ifdef CONFIG_STM32_TIM3
+	stm32_timer_initialize ("/dev/timer0", 3);
+#endif
+
   return ret;
 }
